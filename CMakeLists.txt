@@ -17,6 +17,7 @@ option(BUILD_SHARED_LIBS "Build shared libraries" OFF)
 # Create executable from sources
 add_executable(FileWatcher
 	FileWatcher.cpp
+	ThreadPool.cpp
 	main.cpp
 )
 
